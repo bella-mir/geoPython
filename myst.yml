@@ -6,7 +6,7 @@ project:
   author: 'Белла Миронова'
   copyright: "2026"
   license: CC-BY-4.0
-  github: https://github.com/bella-mir/spatialPython
+  github: https://github.com/bella-mir/geoPython
   description: >
     Онлайн-учебник по работе с геоданными на Python
 
