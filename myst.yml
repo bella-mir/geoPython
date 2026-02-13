@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 42cf4c8b-fce0-42a9-937b-2b52cf50ac0e
+  title: Геоаналитика на Python
+  author: 'Белла Миронова'
+  copyright: "2026"
+  license: CC-BY-4.0
+  github: https://github.com/bella-mir/spatialPython
+  description: >
+    Онлайн-учебник по работе с геоданными на Python
+
+  toc:
+    - file: intro.md
+    - file: chapters/basics/module_0/module_00.ipynb
+    - file: chapters/basics/module_1/module_10.ipynb
+      children:
+      - file: chapters/basics/module_1/module_11.ipynb
+      - file: chapters/basics/module_1/module_12.ipynb
+      - file: chapters/basics/module_1/module_13.ipynb
+      - file: chapters/basics/module_1/module_14.ipynb
+
+
+
+site:
+  template: book-theme
+  options:
+    favicon: globe_icon.png
+    logo: globe_icon.png
