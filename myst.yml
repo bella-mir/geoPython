@@ -7,7 +7,7 @@ project:
   license: CC-BY-4.0
   github: https://github.com/bella-mir/geoPython
   description: >
-    Онлайн-учебник по работе с геоданными на Python
+    Интерактивное пособие по работе с геоданными на Python
 
   toc:
     - file: intro.md
