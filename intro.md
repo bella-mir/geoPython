@@ -4,7 +4,7 @@
 
 ## Курс-проект
 
-Шаг за шагом вы будете осваивать методы пространственного анализа и библиотеки Python для работы с геоданными, одновременно работая над проектом. В результате вы оцените доступность объектов социальной инфраструктуры в одном из районов выбранного города и отобразите результаты на интерактивной карте.
+Шаг за шагом вы будете осваивать методы пространственного анализа и знакомиться с библиотеками Python для работы с геоданными, одновременно работая над проектом. В результате вы оцените доступность объектов социальной инфраструктуры в одном из районов выбранного города и отобразите результаты на интерактивной карте.
 
 Курс состоит из модулей. Каждый модуль посвящён отдельной теме и включает задание — один из этапов итогового проекта.
 
@@ -65,15 +65,3 @@
 1. <a href="https://boosty.to/bellamir" target="_blank">Блог курса на Boosty</a> – тут можно следить за обновлениями, а также найти видео-разборы занятий и другие полезные материалы
 2. <a href="https://stepik.org/course/58852/promo" target="_blank">"Поколение Python": курс для начинающих</a> - бесплатный курс на платформе Stepik для изучения основ программирования на Python
 3. <a href="https://t.me/GIS_PEACE" target="_blank">GIS AND PEACE</a> - канал в Telegram о картографии
-
-Python Basics
-
-- [Python Foundation for Spatial Analysis](https://courses.spatialthoughts.com/python-foundation.html)
-- [Geo-Python](https://geo-python-site.readthedocs.io/en/latest/)
-
-Spatial Data and Python
-
-- [GeoSpatial Analysis with Python and R](https://kodu.ut.ee/~kmoch/geopython2023/)
-- [Geospatial Data Analysis with Python](https://uwgda-jupyterbook.readthedocs.io/en/latest/intro.html)
-- [Mapping and Data Visualization with Python](https://courses.spatialthoughts.com/python-dataviz.html)
-- [Geographic Data Science with Python](https://geographicdata.science/book/intro.html)

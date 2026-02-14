@@ -20,9 +20,8 @@ project:
       - file: chapters/basics/module_1/module_13.ipynb
       - file: chapters/basics/module_1/module_14.ipynb
 
-
-
 site:
+  url: https://geo-python.ru
   template: book-theme
   options:
     favicon: globe_icon.png
