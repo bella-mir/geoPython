@@ -11,7 +11,7 @@ project:
 
   toc:
     - file: intro.md
-    - file: chapters/basics/module_0/module_00.ipynb
+    - file: chapters/basics/module_0/environment.ipynb
     - file: chapters/basics/module_1/spData_0.ipynb
       children:
       - file: chapters/basics/module_1/spData_1.ipynb
