@@ -50,9 +50,17 @@ jobs:
         uses: actions/cache@v4
         with:
           path: _build/.jupyter_cache
-          key: jupyter-cache-${{ runner.os }}-${{ hashFiles('**/*.ipynb', '**/*.md', '**/_config.yml', '**/_toc.yml') }}
+          key: jupyter-cache-${{ runner.os }}-${{ hashFiles('requirements.txt', 'myst.yml', '**/*.ipynb', '**/*.md') }}
           restore-keys: |
             jupyter-cache-${{ runner.os }}-
+      - name: Cache myst templates
+        uses: actions/cache@v4
+        with:
+          path: _build/templates
+          key: myst-templates-${{ runner.os }}-${{ hashFiles('myst.yml') }}
+          restore-keys: |
+            myst-templates-${{ runner.os }}-
+
       - name: Build HTML Assets
         env:
           NODE_OPTIONS: --max-old-space-size=4096
