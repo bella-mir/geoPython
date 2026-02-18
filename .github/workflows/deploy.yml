@@ -54,6 +54,8 @@ jobs:
           restore-keys: |
             jupyter-cache-${{ runner.os }}-
       - name: Build HTML Assets
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
         run: jupyter-book build --html --execute
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
