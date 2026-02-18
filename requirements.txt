@@ -1,0 +1,12 @@
+jupyter-book
+matplotlib
+shapely
+numpy
+pandas
+geopandas
+osmnx
+folium
+mapclassify
+rasterio
+
+
