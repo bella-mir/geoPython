@@ -39,32 +39,34 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
-          cache-dependency-path: requirements.txt
+          # cache: 'pip'
+          # cache-dependency-path: requirements.txt
       - name: Install Python dependencies
         run: |
           pip install -r requirements.txt      
       - name: Install Jupyter Book (via myst)
         run: npm install -g jupyter-book
-      - name: Cache executed notebooks
-        uses: actions/cache@v4
-        with:
-          path: _build/.jupyter_cache
-          key: jupyter-cache-${{ runner.os }}-${{ hashFiles('requirements.txt', 'myst.yml', '**/*.ipynb', '**/*.md') }}
-          restore-keys: |
-            jupyter-cache-${{ runner.os }}-
-      - name: Cache myst templates
-        uses: actions/cache@v4
-        with:
-          path: _build/templates
-          key: myst-templates-${{ runner.os }}-${{ hashFiles('myst.yml') }}
-          restore-keys: |
-            myst-templates-${{ runner.os }}-
+
+      # - name: Cache executed notebooks
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: _build/.jupyter_cache
+      #     key: jupyter-cache-${{ runner.os }}-${{ hashFiles('requirements.txt', 'myst.yml', '**/*.ipynb', '**/*.md') }}
+      #     restore-keys: |
+      #       jupyter-cache-${{ runner.os }}-
+      # - name: Cache myst templates
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: _build/templates
+      #     key: myst-templates-${{ runner.os }}-${{ hashFiles('myst.yml') }}
+      #     restore-keys: |
+      #       myst-templates-${{ runner.os }}-
 
       - name: Build HTML Assets
-        env:
-          NODE_OPTIONS: --max-old-space-size=4096
-        run: jupyter-book build --html --execute
+        # env:
+        #   NODE_OPTIONS: --max-old-space-size=4096
+        # run: jupyter-book build --html --execute
+        run: jupyter-book build --html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
