@@ -14,10 +14,11 @@ project:
     - file: chapters/basics/module_0/module_00.ipynb
     - file: chapters/basics/module_1/module_10.ipynb
       children:
-      - file: chapters/basics/module_1/module_11.ipynb
-      - file: chapters/basics/module_1/module_12.ipynb
-      - file: chapters/basics/module_1/module_13.ipynb
-      - file: chapters/basics/module_1/module_14.ipynb
+      - file: chapters/basics/module_1/spData_0.ipynb
+      - file: chapters/basics/module_1/spData_1.ipynb
+      - file: chapters/basics/module_1/spData_2.ipynb
+      - file: chapters/basics/module_1/spData_3.ipynb
+      - file: chapters/basics/module_1/spData_4.ipynb
 
 site:
   url: https://geo-python.ru
