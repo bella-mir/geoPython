@@ -11,13 +11,13 @@ project:
 
   toc:
     - file: intro.md
-    - file: chapters/basics/module_0/environment.ipynb
-    - file: chapters/basics/module_1/spData_0.ipynb
+    - file: chapters/module_0/environment.ipynb
+    - file: chapters/module_1/spData_0.ipynb
       children:
-      - file: chapters/basics/module_1/spData_1.ipynb
-      - file: chapters/basics/module_1/spData_2.ipynb
-      - file: chapters/basics/module_1/spData_3.ipynb
-      - file: chapters/basics/module_1/spData_4.ipynb
+      - file: chapters/module_1/spData_1.ipynb
+      - file: chapters/module_1/spData_2.ipynb
+      - file: chapters/module_1/spData_3.ipynb
+      - file: chapters/module_1/spData_4.ipynb
 
 site:
   url: https://geo-python.ru
