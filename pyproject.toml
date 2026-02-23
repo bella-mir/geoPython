@@ -22,6 +22,7 @@ dependencies = [
     "folium>=0.20.0",
     "geopandas>=1.1.2",
     "h3pandas>=0.3.0",
+    "ipykernel>=7.2.0",
     "mapclassify>=2.8.1",
     "matplotlib>=3.10.8",
     "matplotlib-inline>=0.2.1",
