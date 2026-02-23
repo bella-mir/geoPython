@@ -65,3 +65,6 @@ site/
 /**/*.zarr
 /**/*.tif
 data/
+
+# MyST build outputs
+_build
