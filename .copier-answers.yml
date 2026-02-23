@@ -1,0 +1,16 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.2.3
+_src_path: gh:npikall/py-bootstrap
+author_email: bellamironova@gmail.com
+author_fullname: Bella Mironova
+author_username: bella-mir
+ci_github: true
+ci_github_workflows:
+- Lint_Format
+- Release_GitHub
+ci_gitlab: false
+copyright_license: MIT
+include_docs: false
+pre_commit: prek
+project_name: geo-python
+repo_name: geo-python
