@@ -3,9 +3,8 @@
 _default:
     @just --list
 
-import? "init.just"
-
 alias c := clean
+alias d := docs
 alias h := hooks
 alias i := info
 alias l := lint
@@ -112,7 +111,10 @@ update:
 dist:
     uv build
 
-
+# serve the documentation locally with myst
+[group("dev")]
+docs:
+    yes | uv run myst
 
 _ensure_clean:
     @git diff --quiet
