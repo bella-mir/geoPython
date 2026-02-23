@@ -6,7 +6,6 @@ _default:
 import? "init.just"
 
 alias c := clean
-alias d := docs
 alias h := hooks
 alias i := info
 alias l := lint
