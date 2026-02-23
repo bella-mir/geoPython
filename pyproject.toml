@@ -1,0 +1,68 @@
+[project]
+name = "geo-python"
+version = "0.0.0"
+description = "The project description..."
+readme = "README.md"
+authors = [{ name = "Bella Mironova", email = "bellamironova@gmail.com" }]
+requires-python = ">=3.10"
+classifiers = [
+	"Intended Audience :: Science/Research",
+	"Natural Language :: English",
+	"Operating System :: POSIX",
+	"Programming Language :: Python :: 3 :: Only",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: 3.14",
+	"Topic :: Scientific/Engineering",
+	"Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "folium>=0.20.0",
+    "geopandas>=1.1.2",
+    "h3pandas>=0.3.0",
+    "mapclassify>=2.8.1",
+    "matplotlib>=3.10.8",
+    "matplotlib-inline>=0.2.1",
+    "matplotlib-scalebar>=0.9.0",
+    "numpy>=2.2.6",
+    "osmnx>=2.0.7",
+    "pandas>=2.3.3",
+    "rasterio>=1.4.4",
+    "shapely>=2.1.2",
+]
+
+[dependency-groups]
+# Unlike optional dependencies, development dependencies are local-only
+# and will not be included in the project requirements when
+# published to PyPI or other indexes
+dev = ["pytest>=9.0.1", "pytest-cov>=7", "ruff>=0.14.14", "ty>=0.0.14"]
+
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+format.indent-style = "space"
+format.quote-style = "double"
+format.line-ending = "auto"
+format.skip-magic-trailing-comma = false
+format.docstring-code-line-length = "dynamic"
+format.docstring-code-format = false
+lint.select = ["ALL"]
+lint.ignore = [
+	"COM812", # missing-trailing-comma (may conflict with ruff formatter)
+	"D203",   # incorrect-blank-line-before-class (conflicts with D211)
+	"D213",   # multi-line-summary-second-line (conflicts with D212)
+]
+lint.per-file-ignores."**/{tests}/*" = ["ANN201", "D", "E402", "INP001", "S101"]
+lint.per-file-ignores."__init__.py" = ["E402"]
+lint.fixable = ["ALL"]
+lint.unfixable = []
+
+[tool.pytest.ini_options]
+addopts = "--cov=geo-python --cov-report term-missing -rsx --verbose --color=yes"
+
+[tool.coverage.run]
+relative_files = true
