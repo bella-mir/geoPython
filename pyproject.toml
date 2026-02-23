@@ -37,7 +37,13 @@ dependencies = [
 # Unlike optional dependencies, development dependencies are local-only
 # and will not be included in the project requirements when
 # published to PyPI or other indexes
-dev = ["pytest>=9.0.1", "pytest-cov>=7", "ruff>=0.14.14", "ty>=0.0.14"]
+dev = [
+    "mystmd>=1.8.1",
+    "pytest>=9.0.1",
+    "pytest-cov>=7",
+    "ruff>=0.14.14",
+    "ty>=0.0.14",
+]
 
 
 [tool.ruff]
