@@ -42,18 +42,7 @@
 
 При использовании материалов, пожалуйста, не забывайте цитировать:
 
-<!-- > Миронова, Б. (2026). _Геоаналитика на Python_ (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX -->
-
-<!-- ```{code-block} bibtex
-@software{mironova_geoanalytics_2026,
-  author  = {Белла Миронова},
-  title   = {Геоаналитика на Python},
-  year    = {2026},
-  version = {1.0.0},
-  doi     = {10.5281/zenodo.XXXXXXX},
-  url     = {https://doi.org/10.5281/zenodo.XXXXXXX}
-}
-``` -->
+Миронова, Б. (2026). _Геоаналитика на Python_ (v1.0.0). Zenodo. DOI: `https://doi.org/10.5281/zenodo.18853423`
 
 Материалы распространяются по лицензии CC BY 4.0.
 
