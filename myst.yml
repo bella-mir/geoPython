@@ -11,13 +11,15 @@ project:
 
   toc:
     - file: intro.md
-    - file: chapters/module_0/environment.ipynb
+    - file: chapters/module_0/environment
+    - file: chapters/module_0/syllabus.md
     - file: chapters/module_1/spData_0.ipynb
       children:
       - file: chapters/module_1/spData_1.ipynb
       - file: chapters/module_1/spData_2.ipynb
       - file: chapters/module_1/spData_3.ipynb
       - file: chapters/module_1/spData_4.ipynb
+
 
 site:
   url: https://geo-python.ru
