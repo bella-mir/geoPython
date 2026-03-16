@@ -19,6 +19,11 @@ project:
       - file: chapters/module_1/spData_2.ipynb
       - file: chapters/module_1/spData_3.ipynb
       - file: chapters/module_1/spData_4.ipynb
+    - file: chapters/module_2/projections_0.ipynb
+      children:
+      - file: chapters/module_2/projections_1.ipynb
+      - file: chapters/module_2/projections_2.ipynb
+      - file: chapters/module_2/projections_3.ipynb
 
 
 site:
