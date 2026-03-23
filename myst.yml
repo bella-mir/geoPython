@@ -24,6 +24,11 @@ project:
       - file: chapters/module_2/projections_1.ipynb
       - file: chapters/module_2/projections_2.ipynb
       - file: chapters/module_2/projections_3.ipynb
+    - file: chapters/module_3/geoprocessing_0.ipynb
+      children:
+      - file: chapters/module_3/geoprocessing_1.ipynb
+      - file: chapters/module_3/geoprocessing_2.ipynb
+
 
 
 site:
