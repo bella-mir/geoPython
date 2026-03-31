@@ -28,6 +28,8 @@ project:
       children:
       - file: chapters/module_3/geoprocessing_1.ipynb
       - file: chapters/module_3/geoprocessing_2.ipynb
+      - file: chapters/module_3/geoprocessing_3.ipynb
+      - file: chapters/module_3/geoprocessing_4.ipynb
 
 
 
