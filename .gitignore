@@ -5,3 +5,8 @@ _build
 
 # Python virtual environments
 myenv/
+
+
+.env
+.env.*
+!.env.example

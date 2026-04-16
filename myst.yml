@@ -31,6 +31,12 @@ project:
       - file: chapters/module_3/geoprocessing_3.ipynb
       - file: chapters/module_3/geoprocessing_4.ipynb
       - file: chapters/module_3/geoprocessing_5.ipynb
+    - file: chapters/module_4/networkAnalysis_0.ipynb
+      children:
+      - file: chapters/module_4/networkAnalysis_1.ipynb
+      - file: chapters/module_4/networkAnalysis_2.ipynb
+      - file: chapters/module_4/networkAnalysis_3.ipynb
+
 
 
 
