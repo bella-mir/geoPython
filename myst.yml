@@ -36,6 +36,10 @@ project:
       - file: chapters/module_4/networkAnalysis_1.ipynb
       - file: chapters/module_4/networkAnalysis_2.ipynb
       - file: chapters/module_4/networkAnalysis_3.ipynb
+    - file: chapters/module_5/rasters_0.ipynb
+      children:
+      - file: chapters/module_5/rasters_1.ipynb
+      - file: chapters/module_5/rasters_2.ipynb
 
 
 
