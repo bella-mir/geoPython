@@ -19,8 +19,8 @@
 - [**Пространственные данные**](https://geo-python.ru/spdata-0/)
 - [**Проекции и системы координат**](https://geo-python.ru/projections-0/)
 - [**Пространственные операции**](https://geo-python.ru/geoprocessing-0/)
-- [**Основы сетевого анализа**](https://geo-python.ru/networkAnalysis-0/)
-- [**Растровые данные и зональная статистика**](https://geo-python.ru/raster-0/)
+- [**Основы сетевого анализа**](https://geo-python.ru/networkanalysis-0/)
+- [**Растровые данные и зональная статистика**](https://geo-python.ru/rasters-0/)
 - Создание интерактивных карт
 
 ## Курс-проект - [Boosty](https://boosty.to/bellamir)
