@@ -10,3 +10,8 @@ myenv/
 .env
 .env.*
 !.env.example
+
+
+uv.lock
+pyproject.toml
+Justfile
