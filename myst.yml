@@ -40,6 +40,10 @@ project:
       children:
       - file: chapters/module_5/rasters_1.ipynb
       - file: chapters/module_5/rasters_2.ipynb
+    - file: chapters/module_6/map_0.ipynb
+      children:
+      - file: chapters/module_6/map_1.ipynb
+      - file: chapters/module_6/map_2.ipynb
 
 
 

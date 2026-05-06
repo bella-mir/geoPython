@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "metro",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "element": "node", "id": 249307184, "name": "Приморская" }, "geometry": { "type": "Point", "coordinates": [ 30.2379397, 59.9487362 ] } },
+{ "type": "Feature", "properties": { "element": "node", "id": 2468455392, "name": "Василеостровская" }, "geometry": { "type": "Point", "coordinates": [ 30.2753586, 59.9431765 ] } },
+{ "type": "Feature", "properties": { "element": "node", "id": 12452281516, "name": "Горный институт" }, "geometry": { "type": "Point", "coordinates": [ 30.263811, 59.9311523 ] } }
+]
+}

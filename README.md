@@ -21,7 +21,7 @@
 - [**Пространственные операции**](https://geo-python.ru/geoprocessing-0/)
 - [**Основы сетевого анализа**](https://geo-python.ru/networkanalysis-0/)
 - [**Растровые данные и зональная статистика**](https://geo-python.ru/rasters-0/)
-- Создание интерактивных карт
+- [**Создание интерактивных карт**](https://geo-python.ru/map-0/)
 
 ## Курс-проект - [Boosty](https://boosty.to/bellamir)
 

@@ -17,7 +17,7 @@
 - [Пространственные операции](/chapters/module_3/geoprocessing_0.ipynb)
 - [Основы сетевого анализа](/chapters/module_4/networkAnalysis_0.ipynb)
 - [Растровые данные и зональная статистика](/chapters//module_5/rasters_0.ipynb)
-- Создание интерактивных карт
+- [Создание интерактивных карт](/chapters//module_6/map_0.ipynb)
 
 ## Курс-проект - [Boosty](https://boosty.to/bellamir)
 
