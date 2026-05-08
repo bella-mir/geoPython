@@ -15,3 +15,5 @@ myenv/
 uv.lock
 pyproject.toml
 Justfile
+
+CLAUDE.md
