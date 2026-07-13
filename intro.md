@@ -19,11 +19,11 @@
 - [Растровые данные и зональная статистика](/chapters//module_5/rasters_0.ipynb)
 - [Создание интерактивных карт](/chapters//module_6/map_0.ipynb)
 
-## Курс-проект - [Boosty](https://boosty.to/bellamir)
-
-На основе материалов пособия создан курс, который можно найти на платформе [Boosty](https://boosty.to/bellamir)
+## Курс-проект
 
 **Все модули курса связаны между собой и объединены в один проект.** К каждому модулю предусмотрено задание — часть аналитической задачи **по оценке доступности повседневных функций выбранного вами города**.
+
+Ноутбуки с заданиями и видеоразборы занятий доступны в [бандле курса на Boosty](https://boosty.to/bellamir/bundle/810f0481-b240-44b7-a08f-1b5c10b0e4f6?share=bundle_link).
 
 ## Цитирование
 
@@ -37,6 +37,6 @@
 
 ## Другие ссылки
 
-1. <a href="https://boosty.to/bellamir" target="_blank">Блог курса на Boosty</a> – тут можно следить за обновлениями, а также найти видеоразборы занятий
-2. <a href="https://stepik.org/course/58852/promo" target="_blank">"Поколение Python": курс для начинающих</a> – бесплатный курс на платформе Stepik для изучения основ программирования на Python
-3. <a href="https://t.me/GIS_PEACE" target="_blank">GIS AND PEACE</a> – канал в Telegram о картографии
+1. <a href="https://stepik.org/course/58852/promo" target="_blank">"Поколение Python": курс для начинающих</a> – бесплатный курс на платформе Stepik для изучения основ программирования на Python
+2. <a href="https://t.me/GIS_PEACE" target="_blank">GIS AND PEACE</a> – канал в Telegram о картографии
+3. <a href="https://bella-mir.com" target="_blank">bella-mir.com</a> – сайт автора пособия

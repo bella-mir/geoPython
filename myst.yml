@@ -2,7 +2,9 @@ version: 1
 project:
   id: 42cf4c8b-fce0-42a9-937b-2b52cf50ac0e
   title: Геоаналитика на Python
-  author: 'Белла Миронова'
+  authors:
+    - name: Белла Миронова
+      url: https://bella-mir.com
   copyright: "2026"
   license: CC-BY-4.0
   github: https://github.com/bella-mir/geoPython
